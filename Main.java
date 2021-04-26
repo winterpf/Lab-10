@@ -1,7 +1,10 @@
 class Main {
   public static void main(String[] args) {
-    Sugar mySugar = new Sugar(5, 10);
-
-    mySugar 
+    Sugar tree=new Sugar ("Tree");
+    tree.cutShapes(tree.getShape(),10);
+    tree.bakeCookies(350,12);
+    tree.decorate();
+    Sugar aCookie = new Sugar();
+    aCookie.decorate();
   }
 }
